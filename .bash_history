@@ -185,3 +185,47 @@ git log remotes/origin/main
 git merge 42f5c95f83c3cf29cd41f02
 cat Read
 cat README.md 
+yum update -y
+yum install git -y
+git -v
+git config --global user.name "shannu2000"
+git config --global user.email "appanashanmukh02@gmail.com"
+git clone https://github.com/shannu2000-ops/practice.git
+git remote -v
+git remote origin 
+git remote -v
+git init
+git remote -v
+git branch -m main
+git branch
+git remote add origin  https://github.com/shannu2000-ops/practice.git
+git remote -v
+ls -ltr
+git pull origin main
+mv .bash_history .bash_history.bak
+mv .lesshst .lesshst.bak
+rm .bash_history .lesshst
+git pull origin main
+git add .
+git status
+git revert 
+git reset
+git reset HEAD
+git status
+git add a{2..9}
+git status
+git commit -m "co mited"
+git push origin main
+git pull origin main
+ls -ltr
+rm -rf mumbai
+rm -rf file{1,2,3}
+ls -ltr
+rm -rf hyderabad
+rm -rf rebase
+git push origin main
+git branch -b feature
+git branch
+git checkout -b feature
+git branch
+ls -ltr
